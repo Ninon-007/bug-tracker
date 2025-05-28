@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bug Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐞 Bug Tracker</h1>
+    
+    <div class="form">
+      <input type="text" id="bugDesc" placeholder="Bug description" />
+      <select id="severity">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+      <button onclick="addBug()">Add Bug</button>
+    </div>
+    
+    <div id="bugList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
