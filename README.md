@@ -15,12 +15,6 @@ Users can report bugs, mark them as fixed, and delete them. All data is saved us
 
 ---
 
-## 📸 Screenshots
-
-![Bug Tracker Screenshot](screenshot.png) <!-- optional: upload your screenshot as screenshot.png -->
-
----
-
 ## 🚀 Technologies Used
 
 - HTML5
